@@ -1,3 +1,5 @@
+// VERZIJA U KOJOJ NE RADI POSTAVLJANJE PODATAKA U SINGLE "OKVIR"
+
 // $.ajax('https://randomuser.me/api/?results=20')
 //     .done(function (korisnici) {
 //         console.log(korisnici);
@@ -11,6 +13,9 @@
 //     $(".blah").append(`<img src="${korisnici.results[i].picture.medium}">`)
 
 // };
+
+// ISPRAVNA VERZIJA
+
 // $.ajax('https://randomuser.me/api/?results=20')
 //     .done(function (korisnici) {
 //         console.log(korisnici);
